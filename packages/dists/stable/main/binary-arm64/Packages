@@ -1,0 +1,235 @@
+Package: box64
+Installed-Size: 13024
+Maintainer: root@ed411aafa29f
+Architecture: arm64
+Version: 0.2.3+20230322.900f387-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64/box64_0.2.3+20230322.900f387-1_arm64.deb
+Size: 2314536
+SHA256: b2ec4b2df71c15945dbf822dffcc3d3cbfb9e56e0e879cbc6c8ce317e9f503d4
+SHA1: c1f0660a182c64386c1ff9542e4df3d25f87decf
+MD5sum: 94725dbd291a15965e37937250e57eac
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: box64-android
+Installed-Size: 12988
+Maintainer: root@7c43e5f333f1
+Architecture: arm64
+Version: 0.2.3+20230324.dcc1a5d-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64-android/box64-android_0.2.3+20230324.dcc1a5d-1_arm64.deb
+Size: 2329080
+SHA256: f5a22c7f9336e4b0141813413cb267da8f966cb243e0d3979a193e2ea2fc6cc2
+SHA1: 586b4adaa4e96b1cdafa0c80f7dbc1c42c42aa9d
+MD5sum: afc746b095efca5c4f6fd88deda08a07
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: box64-generic-arm
+Installed-Size: 13000
+Maintainer: root@7c43e5f333f1
+Architecture: arm64
+Version: 0.2.3+20230324.dcc1a5d-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64-generic-arm/box64-generic-arm_0.2.3+20230324.dcc1a5d-1_arm64.deb
+Size: 2313716
+SHA256: 84cf26e5568e0b4cbf4934af70a05a890802b15f4a2a614cea12a19c39219a53
+SHA1: 3fa25f59348c7f98952bd0b1db324da3604e8b7b
+MD5sum: a704b0fe09d42388e3d6e459ae38af45
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: box64-rk3399
+Installed-Size: 13048
+Maintainer: root@7c43e5f333f1
+Architecture: arm64
+Version: 0.2.3+20230324.dcc1a5d-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64-rk3399/box64-rk3399_0.2.3+20230324.dcc1a5d-1_arm64.deb
+Size: 2324264
+SHA256: 76b84be42f74b6e88714937fca5cc4d55620b5d03ad24069d55fea01e803c146
+SHA1: 476c3d94309b7c72e842b9175056bdede5170421
+MD5sum: 8794ca8cfa516ff78af38095a87bd275
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: box64-rpi4arm64
+Installed-Size: 13028
+Maintainer: root@7c43e5f333f1
+Architecture: arm64
+Version: 0.2.3+20230324.dcc1a5d-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64-rpi4arm64/box64-rpi4arm64_0.2.3+20230324.dcc1a5d-1_arm64.deb
+Size: 2315244
+SHA256: c4679632d93b3aa71385b12657ceaac196dafac42772bfd008f9ec44135067f9
+SHA1: b3268261eec089494331ab6a128148cff9f80b20
+MD5sum: b92cb6da07ae7079bb06d8d2b08036b5
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: box64-tegrax1
+Installed-Size: 13028
+Maintainer: root@7c43e5f333f1
+Architecture: arm64
+Version: 0.2.3+20230324.dcc1a5d-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64-tegrax1/box64-tegrax1_0.2.3+20230324.dcc1a5d-1_arm64.deb
+Size: 2323436
+SHA256: 553da98bd133a90c1f8231af68008502271e68adee565093613bb14562637d96
+SHA1: f3f0e06a29babd1405ce8a21b156a50981a50318
+MD5sum: cc3be50e341118e9473b40efb8639798
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: deepin-wine-plugin-virtual
+Source: deepin-wine-helper
+Version: 5.1.4-1
+Architecture: all
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 9
+Depends: zenity, deepin-wine-plugin, p7zip-full, python-dbus, python-gobject, fonts-noto-cjk
+Multi-Arch: foreign
+Homepage: http://www.linuxdeepin.com/
+Priority: extra
+Section: non-free/otherosfs
+Filename: pool/main/d/deepin-wine-helper/deepin-wine-plugin-virtual_5.1.4-1_all.deb
+Size: 11092
+SHA256: 5b44aa8f865a10dc4752003b7653abc8c4ffbe09762b78186c775aba269a3d8a
+SHA1: c5d2b4341379801ee551c4ff28e89c83310ba063
+MD5sum: be51e4cd9037e81f23f21645b647d286
+Description: Deepin Wine plugin virtual package
+
+Package: fantascene-dynamic-wallpaper
+Version: 1.4.2
+Architecture: arm64
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 6947
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.35.8), libmpv1 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, qdbus-qt5
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Homepage: http://github.com/dependon
+Priority: optional
+Section: utils
+Filename: pool/main/f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.4.2_arm64.deb
+Size: 6586324
+SHA256: 9aa82aa588baafe7bf78fed8c2525974057f89a3323573b4e8f141663900203c
+SHA1: 16f6ceec03dcbcf78db9a8e3d208b5d34d23c985
+MD5sum: a3aa244ffb0ce612c2816f360a82d635
+Description: video wallpaper for fantascene.
+
+Package: pi-apps
+Version: 1.0
+Architecture: arm64
+Essential: no
+Installed-Size: 12685
+Maintainer: Botspotq
+Priority: optional
+Section: custom
+Filename: pool/main/p/pi-apps/pi-apps_1.0_arm64.deb
+Size: 2542784
+SHA256: 592b262231e54f3f5a3cddfb97134a10d699e284086ab08ddf21db6cbd541320
+SHA1: 598983c093045fb96c4ea7b75662f7dbf9a1a0a0
+MD5sum: d83863e2821d7630776101aa58cd636f
+Description: Raspberry Pi App Store for Open Source Projects
+Pre-Depends: yad,curl,wget,aria2,lsb-release,software-properties-common,apt-utils,imagemagick,bc,librsvg2-bin,locales,shellcheck,git,wmctrl,xdotool,x11-utils,rsync
+
+Package: qemu-laucher
+Architecture: all
+Installed-Size: 332
+Maintainer: ernel <3234252572@qq.com>
+Version: 0.1beta
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu-laucher/qemu-laucher_0.1beta_all.deb
+Size: 1468
+SHA256: f66fe20606bd3f3695c52425e518263dead07dfb1416c4cf60d117b98408d22e
+SHA1: 8d4ccadb13d0370f805818410b5ba4017ff1a7d3
+MD5sum: ced5fa12ecb5bdbdf1db83eed1a03335
+Description: Easily to lauch qemu.
+Essential: no
+Pre-Depends: qemu-system
+
+Package: simple-image-filter
+Version: 1.1.0
+Architecture: arm64
+Maintainer: liuminghang  <liuminghang0821@gmail.com>
+Installed-Size: 654
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Homepage: simple-image-filter
+Priority: optional
+Section: utils
+Filename: pool/main/s/simple-image-filter/simple-image-filter_1.1.0_arm64.deb
+Size: 281024
+SHA256: f85d96d9cce9a0053ce99e326879d937937c4781205082a56aafff940cde95d8
+SHA1: 8704dc7500d54cc3ff5f913ccdff04150bacd2ee
+MD5sum: 040e02be79f0e869f9f87a12a9b1964a
+Description: simple image filter.
+
+Package: test2
+Version: 1.0
+Architecture: arm64
+Essential: no
+Installed-Size: 1024
+Maintainer: test2.org
+Priority: optional
+Section: custom
+Filename: pool/main/t/test2/test2_1.0_arm64.deb
+Size: 4210
+SHA256: fcd7b88fcd9790f24e6650483f9a3cf19674f745e56415cbd4818679f9f0f948
+SHA1: d21516f15d3250f29a84558be5bd081abd6e2597
+MD5sum: 2531005ff0ce47de7284748fb3f30c27
+Description: 打印一些名言 
+
+Package: tmoe-linux-tool
+Version: 1.4989.51
+Architecture: all
+Essential: no
+Installed-Size: 86000
+Maintainer: 2moe
+Priority: optional
+Section: custom
+Filename: pool/main/t/tmoe-linux-tool/tmoe-linux-tool_1.4989.51_all.deb
+Size: 676292
+SHA256: 63b7a9f9a4911004f3be53cb53014635645ca7c5a9bd49f769c7fa78afc4864f
+SHA1: 5e2c583b5bf190efc9e71a3ac7efa55e28fbf503
+MD5sum: d64c4d9f16fd6433d685c0afc8c62bb7
+Description: TMOE, More Optional Environments
+Pre-Depends: aria2 (>= 1.30.0), binutils (>= 2.28-5), coreutils (>= 8.26-3), curl (>= 7.52.1-5), findutils (>= 4.6.0), git (>= 1:2.11.0-3), grep, lsof (>= 4.89), micro (>= 2.0.6-2) | nano (>= 2.7.4-1), proot (>= 5.1.0), procps (>= 2:3.3.12), sed, sudo (>= 1.8.19p1-2.1), tar (>= 1.29b-1.1),  util-linux (>= 2.29.2-1), whiptail (>= 0.52.19), xz-utils (>= 5.2.2), zstd (>= 1.1.2)
+
+Package: typora
+Version: 1.5.10-1
+Architecture: arm64
+Recommends: lsb-release
+Suggests: pandoc
+Installed-Size: 270330
+Maintainer: typora<hi@typora.io>
+Homepage: http://typora.io
+Priority: optional
+Section: editors
+Filename: pool/main/t/typora/typora_1.5.10-1_arm64.deb
+Size: 75806048
+SHA256: f65cc6d9ad34ef1aad13dcd9debb10c40ad73e456a40fd23bc7cb66ed9529cd9
+SHA1: 858587c7fd0380db3b8c810c1d203213d2e733eb
+MD5sum: 3c14d189b4d4947f8676b38037292e27
+Description: a minimal Markdown reading & writing app. Change Log: (https://typora.io/releases/all)
+ Markdown Editor
+

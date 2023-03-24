@@ -1,0 +1,91 @@
+Package: deepin-wine-helper
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 2299
+Homepage: http://www.linuxdeepin.com/
+Priority: extra
+Section: non-free/otherosfs
+Filename: pool/main/d/deepin-wine-helper/deepin-wine-helper_5.1.45-1_i386.deb
+Size: 707340
+SHA256: 4a845eb7316fab4437a346261ed5696523903b6f0d00855736124f7e7ac91a13
+SHA1: c51e1603bd8a74776053aa8fa09e0bf678314620
+MD5sum: 8728f11e1f2bc905586fd99e63b3c798
+Description: Deepin Wine Helper
+Architecture: i386
+Version: 5.1.45-1
+Depends: zenity:amd64, p7zip-full:amd64, fonts-noto-cjk, deepin-elf-verify:amd64 (>= 1.1.1-1)
+Multi-Arch: foreign
+
+Package: deepin-wine-plugin-virtual
+Source: deepin-wine-helper
+Version: 5.1.4-1
+Architecture: all
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 9
+Depends: zenity, deepin-wine-plugin, p7zip-full, python-dbus, python-gobject, fonts-noto-cjk
+Multi-Arch: foreign
+Homepage: http://www.linuxdeepin.com/
+Priority: extra
+Section: non-free/otherosfs
+Filename: pool/main/d/deepin-wine-helper/deepin-wine-plugin-virtual_5.1.4-1_all.deb
+Size: 11092
+SHA256: 5b44aa8f865a10dc4752003b7653abc8c4ffbe09762b78186c775aba269a3d8a
+SHA1: c5d2b4341379801ee551c4ff28e89c83310ba063
+MD5sum: be51e4cd9037e81f23f21645b647d286
+Description: Deepin Wine plugin virtual package
+
+Package: deepin-wine5-stable-i386
+Source: deepin-wine5-stable
+Version: 5.0.35-1
+Architecture: i386
+Maintainer: Wei Xie <xiewei@uniontech.com>, Zhipeng Zhao <zhaozhipeng@uniontech.com>
+Installed-Size: 227580
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: deepin-wine-runtime (>= 0.0.3)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Filename: pool/main/d/deepin-wine5-stable/deepin-wine5-stable-i386_5.0.35-1_i386.deb
+Size: 24682044
+SHA256: 5f91506c5bedf3cd49a51a96c7f421f7455f7962196098e7879075c577682a7c
+SHA1: 0a0aaa047cd67c66ce6f08b399fba7af05294389
+MD5sum: ae2f0e537ecacd5324a255818ab999da
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 32-bit Windows
+ programs.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: qemu-laucher
+Architecture: all
+Installed-Size: 332
+Maintainer: ernel <3234252572@qq.com>
+Version: 0.1beta
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu-laucher/qemu-laucher_0.1beta_all.deb
+Size: 1468
+SHA256: f66fe20606bd3f3695c52425e518263dead07dfb1416c4cf60d117b98408d22e
+SHA1: 8d4ccadb13d0370f805818410b5ba4017ff1a7d3
+MD5sum: ced5fa12ecb5bdbdf1db83eed1a03335
+Description: Easily to lauch qemu.
+Essential: no
+Pre-Depends: qemu-system
+
+Package: tmoe-linux-tool
+Version: 1.4989.51
+Architecture: all
+Essential: no
+Installed-Size: 86000
+Maintainer: 2moe
+Priority: optional
+Section: custom
+Filename: pool/main/t/tmoe-linux-tool/tmoe-linux-tool_1.4989.51_all.deb
+Size: 676292
+SHA256: 63b7a9f9a4911004f3be53cb53014635645ca7c5a9bd49f769c7fa78afc4864f
+SHA1: 5e2c583b5bf190efc9e71a3ac7efa55e28fbf503
+MD5sum: d64c4d9f16fd6433d685c0afc8c62bb7
+Description: TMOE, More Optional Environments
+Pre-Depends: aria2 (>= 1.30.0), binutils (>= 2.28-5), coreutils (>= 8.26-3), curl (>= 7.52.1-5), findutils (>= 4.6.0), git (>= 1:2.11.0-3), grep, lsof (>= 4.89), micro (>= 2.0.6-2) | nano (>= 2.7.4-1), proot (>= 5.1.0), procps (>= 2:3.3.12), sed, sudo (>= 1.8.19p1-2.1), tar (>= 1.29b-1.1),  util-linux (>= 2.29.2-1), whiptail (>= 0.52.19), xz-utils (>= 5.2.2), zstd (>= 1.1.2)
+
