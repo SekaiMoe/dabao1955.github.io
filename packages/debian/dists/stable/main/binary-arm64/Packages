@@ -136,18 +136,18 @@ MD5sum: a3aa244ffb0ce612c2816f360a82d635
 Description: video wallpaper for fantascene.
 
 Package: pi-apps
-Version: 1.01
+Version: 1.02
 Architecture: arm64
 Essential: no
-Installed-Size: 12685
+Installed-Size: 59011
 Maintainer: Botspotq
 Priority: optional
 Section: custom
-Filename: pool/main/p/pi-apps/pi-apps_1.01_arm64.deb
-Size: 2523936
-SHA256: f45368edc2c8c3ecec2875b850f5417013bb271cae1dd4df3794da0716ff0e02
-SHA1: f8995b011a9887c4f6250e58c36dae815de1928a
-MD5sum: 1d05abcd4a45d5116f24547b1975a42c
+Filename: pool/main/p/pi-apps/pi-apps_1.02_arm64.deb
+Size: 35567516
+SHA256: 5fb2728950d1857dab1ddb98778e894e77899aced791ed3f1a9ebece5b2267bd
+SHA1: be0a9182ec016a08854d7e4a4017c6ccd4f533d8
+MD5sum: 256c7033f15005f31710cee81f0a6467
 Description: Raspberry Pi App Store for Open Source Projects
 Pre-Depends: yad,curl,wget,aria2,lsb-release,software-properties-common,apt-utils,imagemagick,bc,librsvg2-bin,locales,shellcheck,git,wmctrl,xdotool,x11-utils,rsync
 
