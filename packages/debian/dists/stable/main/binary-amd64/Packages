@@ -1,0 +1,191 @@
+Package: deepin-wine-plugin
+Source: deepin-wine-helper
+Version: 5.1.4-1
+Architecture: amd64
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 27
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Multi-Arch: foreign
+Homepage: http://www.linuxdeepin.com/
+Priority: extra
+Section: non-free/otherosfs
+Filename: pool/main/d/deepin-wine-helper/deepin-wine-plugin_5.1.4-1_amd64.deb
+Size: 20760
+SHA256: f57d7e1297df3b8d9fc410da6c4d8c5ce5c79c1bb59b6dc982523f0d84be2359
+SHA1: e174fbed7719e64c15ad27d4fa037f6dd8deaa72
+MD5sum: 1ebfa67bac67a97a7771eb46a1c7e6f1
+Description: Deepin Wine plugin
+
+Package: deepin-wine-plugin-virtual
+Source: deepin-wine-helper
+Version: 5.1.4-1
+Architecture: all
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 9
+Depends: zenity, deepin-wine-plugin, p7zip-full, python-dbus, python-gobject, fonts-noto-cjk
+Multi-Arch: foreign
+Homepage: http://www.linuxdeepin.com/
+Priority: extra
+Section: non-free/otherosfs
+Filename: pool/main/d/deepin-wine-helper/deepin-wine-plugin-virtual_5.1.4-1_all.deb
+Size: 11092
+SHA256: 5b44aa8f865a10dc4752003b7653abc8c4ffbe09762b78186c775aba269a3d8a
+SHA1: c5d2b4341379801ee551c4ff28e89c83310ba063
+MD5sum: be51e4cd9037e81f23f21645b647d286
+Description: Deepin Wine plugin virtual package
+
+Package: deepin-wine5-stable
+Version: 5.0.35-1
+Architecture: amd64
+Maintainer: Wei Xie <xiewei@uniontech.com>, Zhipeng Zhao <zhaozhipeng@uniontech.com>
+Installed-Size: 6640
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: deepin-wine5-stable-i386 (= 5.0.35-1), deepin-wine5-stable-amd64 (= 5.0.35-1)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Filename: pool/main/d/deepin-wine5-stable/deepin-wine5-stable_5.0.35-1_amd64.deb
+Size: 1248568
+SHA256: 3266292ac961c92ebed9a6a84b0bce5fcb8be281cac878d33bdd75cd2f58f00c
+SHA1: 75a4fa968c51cd33ac4de21d0b51966a65c96348
+MD5sum: c193c89861df84e5fd6add355f3c090b
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: deepin-wine5-stable-amd64
+Source: deepin-wine5-stable
+Version: 5.0.35-1
+Architecture: amd64
+Maintainer: Wei Xie <xiewei@uniontech.com>, Zhipeng Zhao <zhaozhipeng@uniontech.com>
+Installed-Size: 228275
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.27), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.0.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.6.2), libopenal1 (>= 1.14), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libvkd3d1 (>= 1.0), libx11-6, libxext6, libxml2 (>= 2.9.0), ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4), libasound2-plugins, libncurses6 | libncurses5 | libncurses
+Recommends: libcapi20-3, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgsm1, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc1, libosmesa6, libpng16-16 | libpng12-0, libsane | libsane1, libsdl2-2.0-0, libtiff5, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1, libxxf86vm1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Filename: pool/main/d/deepin-wine5-stable/deepin-wine5-stable-amd64_5.0.35-1_amd64.deb
+Size: 25273508
+SHA256: eefc4e85061fc6b51eb9b80e44f8b287888532a781e4ab2ef3d1d301d9b74f86
+SHA1: 6a7fd9dced9836b7a58c01b6d69ddcf7616dfabd
+MD5sum: 580c5d26aa039a93b6d59446f1022c06
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 64-bit Windows
+ programs.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: deepin-wine6-stable
+Priority: optional
+Section: otherosfs
+Filename: pool/main/d/deepin-wine6-stable/deepin-wine6-stable_6.0.0.46-1_amd64.deb
+Size: 52847840
+SHA256: 898d847e6a35996ff648a3fca050dada9175dcf19c3133654ab55453643c68bc
+SHA1: ea2c3a6fd0eeebf3040b82a348549e08e3eaa764
+MD5sum: cee1a8aa4006c876e9fd6acaf8c73b90
+Description: WINE Is Not An Emulator - runs MS Windows programs Wine is a program which allows running Microsoft Windows programs (including DOS, Windows 3.x and Win32 executables) on Unix. . This package contains the files needed to support 64-bit Windows programs.
+Architecture: amd64
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Recommends: libcapi20-3, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgsm1, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc1, libosmesa6, libpng16-16 | libpng12-0, libsane | libsane1, libsdl2-2.0-0, libtiff5, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1, libxxf86vm1
+Conflicts: deepin-wine6-stable-amd64, deepin-wine6-stable-i386
+Replaces: deepin-wine6-stable-amd64, deepin-wine6-stable-i386
+Source: deepin-wine6-stable
+Maintainer: Wei Xie <xiewei@uniontech.com>, Zhipeng Zhao <zhaozhipeng@uniontech.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 230183
+Version: 6.0.0.46-1
+Depends: deepin-wine-runtime (>= 0.0.9), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.27), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.0.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.6.2), libopenal1 (>= 1.14), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.21), libvkd3d1 (>= 1.0), libx11-6, libxext6, libxml2 (>= 2.9.0), ocl-icd-libopencl1 | libopencl1, libasound2-plugins, libncurses6 | libncurses5 | libncurses, deepin-elf-verify (>= 1.1.1-1)
+Multi-Arch: foreign
+
+Package: fantascene-dynamic-wallpaper
+Version: 1.4.2
+Architecture: amd64
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 6971
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.35.8), libmpv1 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, qdbus-qt5
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Homepage: http://github.com/dependon
+Priority: optional
+Section: utils
+Filename: pool/main/f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.4.2_amd64.deb
+Size: 6594088
+SHA256: 7916a2ef0290b3cf1445d04cd8da471787a9a549a59793fe882299863c4d6cd9
+SHA1: 868586d5853a11cd3460ab47bc16fdd4e4317eb3
+MD5sum: 467c091353d57d86b7e01269344e8ce0
+Description: video wallpaper for fantascene.
+
+Package: qemu-laucher
+Architecture: all
+Installed-Size: 332
+Maintainer: ernel <3234252572@qq.com>
+Version: 0.1beta
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu-laucher/qemu-laucher_0.1beta_all.deb
+Size: 1468
+SHA256: f66fe20606bd3f3695c52425e518263dead07dfb1416c4cf60d117b98408d22e
+SHA1: 8d4ccadb13d0370f805818410b5ba4017ff1a7d3
+MD5sum: ced5fa12ecb5bdbdf1db83eed1a03335
+Description: Easily to lauch qemu.
+Essential: no
+Pre-Depends: qemu-system
+
+Package: simple-image-filter
+Version: 1.1.0
+Architecture: amd64
+Maintainer: liuminghang  <liuminghang0821@gmail.com>
+Installed-Size: 662
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Homepage: simple-image-filter
+Priority: optional
+Section: utils
+Filename: pool/main/s/simple-image-filter/simple-image-filter_1.1.0_amd64.deb
+Size: 284278
+SHA256: 18aa06c1040c6a73c29746fc67a7ef1573f92b978f453ebc7801387bd6050bb7
+SHA1: a6a551ce5622b7210a789fb268fd12f991f83e8a
+MD5sum: 2619fb6c6b5aae25768a538fcdf37b6d
+Description: simple image filter.
+
+Package: tmoe-linux-tool
+Version: 1.4989.51
+Architecture: all
+Essential: no
+Installed-Size: 86000
+Maintainer: 2moe
+Priority: optional
+Section: custom
+Filename: pool/main/t/tmoe-linux-tool/tmoe-linux-tool_1.4989.51_all.deb
+Size: 676292
+SHA256: 63b7a9f9a4911004f3be53cb53014635645ca7c5a9bd49f769c7fa78afc4864f
+SHA1: 5e2c583b5bf190efc9e71a3ac7efa55e28fbf503
+MD5sum: d64c4d9f16fd6433d685c0afc8c62bb7
+Description: TMOE, More Optional Environments
+Pre-Depends: aria2 (>= 1.30.0), binutils (>= 2.28-5), coreutils (>= 8.26-3), curl (>= 7.52.1-5), findutils (>= 4.6.0), git (>= 1:2.11.0-3), grep, lsof (>= 4.89), micro (>= 2.0.6-2) | nano (>= 2.7.4-1), proot (>= 5.1.0), procps (>= 2:3.3.12), sed, sudo (>= 1.8.19p1-2.1), tar (>= 1.29b-1.1),  util-linux (>= 2.29.2-1), whiptail (>= 0.52.19), xz-utils (>= 5.2.2), zstd (>= 1.1.2)
+
+Package: typora
+Version: 1.5.10-1
+Architecture: amd64
+Recommends: lsb-release
+Suggests: pandoc
+Installed-Size: 298431
+Maintainer: typora<hi@typora.io>
+Homepage: http://typora.io
+Priority: optional
+Section: editors
+Filename: pool/main/t/typora/typora_1.5.10-1_amd64.deb
+Size: 85356596
+SHA256: c7150de61abccd661510851c961ead4564348395aa3a84dadc5221bb235820d2
+SHA1: ea1db5fac1a30830e476503302925b6284c72e24
+MD5sum: 8deb89463b78cd0a49c5de92af44a383
+Description: a minimal Markdown reading & writing app. Change Log: (https://typora.io/releases/all)
+ Markdown Editor
+
