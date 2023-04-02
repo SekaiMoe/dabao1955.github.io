@@ -1,46 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>hello-word</title>
-      <link href="/2023/03/08/hello-word/"/>
-      <url>/2023/03/08/hello-word/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2023/03/05/test/"/>
-      <url>/2023/03/05/test/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>Quick Start</p><footer><strong>luzhengli hello-world</strong><cite><a href="https://luzhengli.github.io/2020/04/10/hello-world/">luzhengli.github.io/2020/04/10/hello-world</a></cite></footer></blockquote>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/1970/01/01/hello-world/"/>
-      <url>/1970/01/01/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/03/08/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>web前端</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过dpkg-scanpackages创建私有debian软件仓库</title>
+    <url>/2023/03/10/%E9%80%9A%E8%BF%87dpkg-scanpackages%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89debian%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="https://dabao1955.github.io/img/blog/2023/03/09/2.jpg"></p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>参考这篇 </p>
+<p><a href="https://dabao1955.github.io/2023/03/09/%E9%80%9A%E8%BF%87reprepro%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89debian%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/">https://dabao1955.github.io/2023/03/09/%E9%80%9A%E8%BF%87reprepro%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89debian%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/</a></p>
+<h1 id="安装dpkg-dev"><a href="#安装dpkg-dev" class="headerlink" title="安装dpkg-dev"></a>安装dpkg-dev</h1><p>用于搭建本地软件源</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ sudo apt install dpkg-dev gzip -y</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="扫描软件包"><a href="#扫描软件包" class="headerlink" title="扫描软件包"></a>扫描软件包</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> deb <span class="comment"># 这里的文件夹可以填别的名字</span></span><br><span class="line">$ dpkg-scanpackages  -m . /dev/null | gzip -9c &gt; Packages.gz <span class="comment">#将deb文件放入deb文件夹中再执行此操作</span></span><br></pre></td></tr></table></figure>
+
+
+<p>然后在&#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;1.list中写入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">deb [trusted=-yes] https://xxx.github.io ./ #这里的xxx换成你自己的仓库名</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>最后执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt update</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <tags>
+        <tag>debian</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过reprepro和github page创建私有debian软件仓库</title>
+    <url>/2023/03/09/%E9%80%9A%E8%BF%87reprepro%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89debian%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="https://dabao1955.github.io/img/blog/2023/03/09/1.jpg"></p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作:"></a>准备工作:</h1><p>一台装有debian或ubuntu的电脑<br>一双灵巧的手</p>
+<h1 id="安装reprepro"><a href="#安装reprepro" class="headerlink" title="安装reprepro"></a>安装reprepro</h1><p>reprepro是一个包仓库管理工具，你可以很容易地安装它。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt install reprepro -y</span><br></pre></td></tr></table></figure>
+
+<h1 id="编辑仓库配置文件"><a href="#编辑仓库配置文件" class="headerlink" title="编辑仓库配置文件"></a>编辑仓库配置文件</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> deb <span class="comment"># 这里的文件夹可以填别的名字</span></span><br><span class="line">$ <span class="built_in">mkdir</span> deb/conf</span><br><span class="line">$ <span class="built_in">touch</span> deb/conf/distributions </span><br></pre></td></tr></table></figure>
+<p>使用文本编辑器编辑distributions文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Codename: stable #版本的代号，对应/etc/apt/source.list中URL的相关字段，非常重要。</span><br><span class="line">Update: sink #仓库同步的策略，会在conf/updates文件中寻找对应Name的同步策略配置。如果配置了多个同步策略，则依次执行。</span><br><span class="line">Architectures: arm64 amd64 #仓库支持的架构</span><br><span class="line">Components: main #仓库中deb包的组件类型，包括main，contrib，non-free。</span><br><span class="line">Description: test</span><br><span class="line">UDebComponents: main</span><br></pre></td></tr></table></figure>
+
+<h1 id="编辑仓库同步文件-可选"><a href="#编辑仓库同步文件-可选" class="headerlink" title="编辑仓库同步文件(可选)"></a>编辑仓库同步文件(可选)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">touch</span> deb/conf/updates</span><br></pre></td></tr></table></figure>
+
+<p>使用文本编辑器编辑updates文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name: sink #同步策略名称，对应conf/distributions文件中的Update字段，用于区分不同的同步策略</span><br><span class="line">Suite: stable #发行版本。可以简单理解为上游仓库的Codename的值。</span><br><span class="line">Architectures: amd64 arm64 #同步的架构，需要确认上游仓库支持的架构和当前仓库需要同步的架构。</span><br><span class="line">Components: main #同步的组件，需要确认上游仓库支持的组件和当前仓库需要同步的组件。</span><br><span class="line"># Method: file:///... #同步的上游仓库URL地址或是本地仓库地址。</span><br><span class="line"># Method: http://...</span><br><span class="line">VerifyRelease: blindtrust</span><br></pre></td></tr></table></figure>
+
+<h1 id="添加deb包"><a href="#添加deb包" class="headerlink" title="添加deb包"></a>添加deb包</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ reprepro [--delete] includedeb &lt;distribution&gt; &lt;.deb-file&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="删除deb包"><a href="#删除deb包" class="headerlink" title="删除deb包"></a>删除deb包</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ reprepro [-C &lt;component&gt;] [-A &lt;architecture&gt;] [-T &lt;<span class="built_in">type</span>&gt;] remove &lt;codename&gt; &lt;package-names&gt;</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="创建github-page"><a href="#创建github-page" class="headerlink" title="创建github page"></a>创建github page</h1><p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site</a></p>
+<h1 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h1><p>首先需要安装git</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt install git -y</span><br></pre></td></tr></table></figure>
+
+<p>然后进行初始化</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git init </span><br></pre></td></tr></table></figure>
+
+<p>然后添加文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add .</span><br></pre></td></tr></table></figure>
+
+<p>然后创建提交</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git commit -m <span class="string">&quot;first commit&quot;</span> <span class="comment">#引号内的东西可以随便填</span></span><br></pre></td></tr></table></figure>
+
+<p>接着设定本地分支为主分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git branch -M main <span class="comment">#这里的main也可以替换成别的</span></span><br></pre></td></tr></table></figure>
+
+<p>最后同步本地仓库到远程</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git remote add origin https://github.com/xxx/xxx.github.io.git <span class="comment">#这里的xxx换成你创建仓库时的名字</span></span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+<p>然后创建&#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;1.list并写入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deb [trusted=yes] https://xxx.github.io/deb stable main</span><br></pre></td></tr></table></figure>
+
+<p>这里只是举了一个例子，实际情况根据自己的需求来修改</p>
+<p>刷新软件源</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt update</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>debian</tag>
+        <tag>github page</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>哔哩哔哩危险地带补档</title>
+    <url>/2023/03/17/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%8D%B1%E9%99%A9%E5%9C%B0%E5%B8%A6%E8%A1%A5%E6%A1%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h1><p><a href="https://dabao1955.github.io/1/index.html">https://dabao1955.github.io/1/index.html</a></p>
+<h1 id="备注"><a href="#备注" class="headerlink" title="备注:"></a>备注:</h1><p>1.只是部分补档<br>2.搬运自<a href="https://ubc2.github.io/links/menu.html,%E4%BE%B5%E5%88%A0">https://ubc2.github.io/links/menu.html,侵删</a></p>
+]]></content>
+      <tags>
+        <tag>哔哩哔哩</tag>
+      </tags>
+  </entry>
 </search>
