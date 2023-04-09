@@ -1,3 +1,73 @@
+Package: app.web.163.mail
+Version: 1.0.0
+Architecture: all
+Maintainer: kylin <kylin@kylinos.cn>
+Installed-Size: 21
+Priority: optional
+Section: universe/admin
+Filename: pool/main/a/app.web.163.mail/app.web.163.mail_1.0.0_all.deb
+Size: 10244
+SHA256: 85e68e1be8113af978ae038addc7cfda94c4ac51bba2130202bbd3c501144f00
+SHA1: 0aa720440b263cae317852f8b1906365a194b573
+MD5sum: 927ad3fb3598c0736f1507b7bf3055ce
+Description: app.web.163.mail
+
+Package: app.web.163.music
+Version: 1.0.0
+Architecture: all
+Maintainer: kylin <kylin@kylinos.cn>
+Installed-Size: 35
+Priority: optional
+Section: universe/admin
+Filename: pool/main/a/app.web.163.music/app.web.163.music_1.0.0_all.deb
+Size: 24548
+SHA256: fc2b46a12b1ffc14568bd9c4cd7de1e1a78eb2bd50726f33848e706a1377bbb9
+SHA1: 634373f3fd7257b3e11532bcfaf003b086022d04
+MD5sum: 42d468258b1928c5bcbb3b06727e5e24
+Description: app.web.163.music
+
+Package: app.web.baidu.map
+Version: 1.0.0
+Architecture: all
+Maintainer: kylin <kylin@kylinos.cn>
+Installed-Size: 23
+Priority: optional
+Section: universe/admin
+Filename: pool/main/a/app.web.baidu.map/app.web.baidu.map_1.0.0_all.deb
+Size: 11576
+SHA256: acbe2d0a9c48ac40d6bc9f13c6738765923083ae33245f59e2fb9cf16c284f80
+SHA1: c831ab09c2eb39c8aaa384f0b009fcbb7f2ffbd6
+MD5sum: 6ff5fb4180428edf43b427a6cd05953a
+Description: app.web.baidu.map
+
+Package: app.web.kugou
+Version: 1.0.0
+Architecture: all
+Maintainer: kylin <kylin@kylinos.cn>
+Installed-Size: 36
+Priority: optional
+Section: universe/admin
+Filename: pool/main/a/app.web.kugou/app.web.kugou_1.0.0_all.deb
+Size: 25930
+SHA256: 99c94138209c1e196ca8335dbeaf4c56e94d28f96df585f4b251e6fef4c94945
+SHA1: e859ec7793a99884ac4b4bd949abc7111397068d
+MD5sum: 318f1de49b6a2f2dc13a6b23ac74181b
+Description: app.web.kugou
+
+Package: app.web.youdao.dict
+Version: 1.0.0
+Architecture: all
+Maintainer: kylin <kylin@kylinos.cn>
+Installed-Size: 33
+Priority: optional
+Section: universe/admin
+Filename: pool/main/a/app.web.youdao.dict/app.web.youdao.dict_1.0.0_all.deb
+Size: 22434
+SHA256: a39bb74651bbc84797d2c603b2ac757f3c2c75542467eadb0875ba06dc7e2f10
+SHA1: 9208372aed2076fe88869a5e1939248028fc158a
+MD5sum: 565fa98b5f3bd7011558d5ac6726c9aa
+Description: app.web.youdao.dict
+
 Package: box86-android
 Installed-Size: 11692
 Maintainer: root@69cdf48997bb
@@ -82,24 +152,6 @@ SHA1: b29456aac40b2b8f82d7268dca727f44d6e294e9
 MD5sum: f0dccfaeebf9e950aeeda79d34b2ab75
 Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
  Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
-
-Package: deepin-wine-plugin-virtual
-Source: deepin-wine-helper
-Version: 5.1.4-1
-Architecture: all
-Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
-Installed-Size: 9
-Depends: zenity, deepin-wine-plugin, p7zip-full, python-dbus, python-gobject, fonts-noto-cjk
-Multi-Arch: foreign
-Homepage: http://www.linuxdeepin.com/
-Priority: extra
-Section: non-free/otherosfs
-Filename: pool/main/d/deepin-wine-helper/deepin-wine-plugin-virtual_5.1.4-1_all.deb
-Size: 11092
-SHA256: 5b44aa8f865a10dc4752003b7653abc8c4ffbe09762b78186c775aba269a3d8a
-SHA1: c5d2b4341379801ee551c4ff28e89c83310ba063
-MD5sum: be51e4cd9037e81f23f21645b647d286
-Description: Deepin Wine plugin virtual package
 
 Package: qemu-laucher
 Architecture: all
